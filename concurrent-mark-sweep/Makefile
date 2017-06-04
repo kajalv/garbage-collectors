@@ -6,3 +6,6 @@ all: cms
 
 cms: cms.o
 	gcc -c cms.c
+
+clean:
+	rm -f concurrentMarkSweep cms.o
